@@ -23,6 +23,10 @@ if(isset($_REQUEST["email"]))
 	
 	Start leerling-code 
 */
+/* Start code by Cem den Ouden */
+$number = $_POST['number'];
+var_dump(filter_var($number, FILTER_SANITIZE_NUMBER_INT));
+/* End of code by Cem den Ouden */
 
 
 /* Start code by Maarten Kampmeijer */
